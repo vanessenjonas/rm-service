@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: rm-service
+  data:
+    mongodb:
+      host: ${DB_PORT_27017_TCP_ADDR:localhost:27017}
+      database: rm-service
